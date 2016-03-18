@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Vendor CSS -->
+  <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+  <link href="css/vendor/colorbox.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+
+
+<div class="grid">
+  <div class="grid-item grid-item--width2">
+    <a href="images/Vincent11.jpg" class="item">
+      <img src="images/Vincent11.jpg" width="200px" class="img-thumbnail">
+    </a>
+  </div>
+  <div class="grid-item grid-item--height2">
+    <a href="images/jakevector.jpg" class="item">
+      <img src="images/jakevector.jpg" width="200px" class="img-thumbnail">
+    </a>
+
+  </div>
+  <div class="grid-item">
+    <a href="images/air1render.jpg" class="item">
+      <img src="images/air1render.jpg" width="200px" class="img-thumbnail">
+    </a>
+  </div>
+  <div class="grid-item">
+    <a href="images/chicago.jpg" class="item">
+      <img src="images/chicago.jpg" width="200px" class="img-thumbnail">
+    </a>
+  </div>
+  <div class="grid-item grid-item--width2 grid-item--height2">
+    <a href="images/armstudy.jpg" class="item">
+      <img src="images/armstudy.jpg" width="200px" class="img-thumbnail">
+    </a>
+  </div>
+  <div class="grid-item grid-item--width2">
+    <a href="images/jordan6.jpg" class="item">
+      <img src="images/jordan6.jpg" width="200px" class="img-thumbnail">
+    </a>
+  </div>
+  <div class="grid-item grid-item--width2">
+    <a href="images/Mjordan.jpg" class="item">
+      <img src="images/Mjordan.jpg" width="200px" class="img-thumbnail">
+    </a>
+  </div>
+  <div class="grid-item grid-item--height2">
+    <a href="images/Jordan7.jpg" class="item">
+      <img src="images/Jordan7.jpg" width="200px" class="img-thumbnail">
+    </a>
+  </div>
+  <div class="grid-item">
+    <a href="images/ness.jpg" class="item">
+      <img src="images/ness.jpg" width="200px" class="img-thumbnail">
+    </a>
+  </div>
+  <div class="grid-item grid-item--width2"></div>
+  <div class="grid-item grid-item--height2"></div>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/jquery.colorbox-min.js"></script>
+<script src="js/vendor/jquery-imagefill.js"></script>
+
+<script>
+$function() {
+$('.item').colorbox({
+  maxWidth:'80%',
+  maxHeight:'80%',
+  opacity:'0.6',
+});
+$('item').imagefill({
+  runOnce:true
+});
+$('.grid').packery({
+  itemSelector: '.grid-item'
+});
+});
+</script>
+</body>
+</html>
