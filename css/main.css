@@ -6,8 +6,7 @@ ul {
   margin: 0px;
 }
 
-/* ------------ Home ------------ */
-
+/* ------------ home ------------ */
 #home {
   text-align: center;
 }
@@ -15,6 +14,23 @@ ul {
   text-align: center;
 }
 #home .banner {
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  padding-top: 10px;
+  background: grey;
+}
+/* ------------------------- */
+
+/* ------------ portfolio ------------ */
+
+#portfolio {
+  text-align: center;
+}
+#portfolio .portfolio-header {
+  text-align: center;
+}
+#portfolio .banner {
   width: 100%;
   height: 40%;
   text-align: center;
