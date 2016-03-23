@@ -20,6 +20,9 @@ ul {
   padding-top: 10px;
   background: grey;
 }
+#home {
+}
+
 /* ------------------------- */
 
 /* ------------ portfolio ------------ */
@@ -36,34 +39,6 @@ ul {
   text-align: center;
   padding-top: 10px;
   background: grey;
-}
-
-/* ------------------------- */
-
-
-/* ------------ About ------------ */
-
-#about {
-  padding: 20px 0;
-}
-#about .packery {
-  margin: 0 auto;
-}
-#about .packery .item {
-  display: block;
-  width: 150px;
-  height: 200px;
-  float: left;
-  border: 1px solid grey;
-}
-#about .packery .item.w2 {
-  width: 320px;
-}
-#about .packery .item.h2 {
-  height: 350px;
-}
-#about .packery .item.h3 {
-  ;
 }
 
 /* ------------------------- */
@@ -100,4 +75,26 @@ ul {
   color: grey;
 }
 
+/* ------------------------- */
+
+/* ------------ packery ------------ */
+.packery {
+  padding: 20px 0;
+  margin: 0 auto;
+}
+.packery .item {
+  display: block;
+  width: 150px;
+  height: 200px;
+  float: left;
+  border: 1px solid grey;
+}
+.packery .item.w2 {
+  width: 320px;
+}
+.packery .item.h2 {
+  height: 350px;
+}
+.packery .item.h3 {
+}
 /* ------------------------- */
