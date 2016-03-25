@@ -20,7 +20,18 @@ ul {
   padding-top: 10px;
   background: grey;
 }
-#home {
+#home .img-block{
+
+  border: 1px solid black;
+}
+#home .img-block div {
+  height: 200px;
+  background-size: cover;
+
+}
+
+#home .img-block a {
+  display: block;
 }
 
 /* ------------------------- */
