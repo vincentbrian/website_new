@@ -1,7 +1,9 @@
 /* ------------ Globals ------------ */
 
 html {}
-body {}
+body {
+  font-family: orator std;
+}
 ul {
   margin: 0px;
 }
