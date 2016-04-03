@@ -4,8 +4,17 @@ html {}
 body {
   font-family: orator std;
 }
+
+h2 {
+  margin-top: 20px;
+}
+
 ul {
   margin: 0px;
+}
+
+p {
+  margin: 50px 50px 50px 50px;
 }
 
 /* ------------ home ------------ */
