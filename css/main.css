@@ -139,7 +139,7 @@ p {
   width: 150px;
   height: 200px;
   float: left;
-  border: 1px solid grey;
+  border: 1px solid #eaeaea;
 }
 .packery .item.w2 {
   width: 320px;
